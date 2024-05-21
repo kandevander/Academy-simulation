@@ -1,8 +1,8 @@
 extern crate rand;
 use rand::seq::SliceRandom;
 
-const NUM_PLAYERS: usize = 4;
-const NUM_GAMES: usize = 10000;
+const NUM_PLAYERS: usize = 6;
+const NUM_GAMES: usize = 1;
 
 fn simulate_game(num_players: usize) -> ([usize; NUM_PLAYERS], [usize; NUM_PLAYERS]) {
     let mut rng = rand::thread_rng();
